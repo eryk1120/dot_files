@@ -1,0 +1,7 @@
+.config/tmux/plugins/
+.config/nvim/lua/core/
+.config/nvim/lua/plugins/
+.config/nvim/init.lua
+.config/nvim/lazy-lock.json
+.config/nvim/LICENSE 
+
