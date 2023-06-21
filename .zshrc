@@ -106,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nv="nvim"
+alias ranger=". ranger"
 
 # poetry
 export PATH="/home/eryksalamonski/.local/bin:$PATH"
