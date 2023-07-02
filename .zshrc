@@ -74,8 +74,8 @@ plugins=(
   git
   docker
   python
-  zsh-syntax-highlighting
-  fast-syntax-highlighting
+#  zsh-syntax-highlighting
+#  fast-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -111,9 +111,3 @@ alias ranger=". ranger"
 # poetry
 export PATH="/home/eryksalamonski/.local/bin:$PATH"
 
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# test
