@@ -8,7 +8,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="crcandy"
+# ZSH_THEME="fino-time"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -106,8 +107,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nv="nvim"
-alias ranger=". ranger"
-
+alias ran=". ranger"
+alias gc_sign_commit="git config user.signingkey 58DC42A01C3215E2D455D3AB0DAA5638D9D920A4 && git config user.email esalamonski@gamecodehq.com"
+alias tm="tmux"
+alias start_docker"sudo systemctl stop docker.service"
+alias stop_docker="sudo systemctl stop docker.socket && sudo systemctl stop docker.service"
 # poetry
-export PATH="/home/eryksalamonski/.local/bin:$PATH"
+export PATH="/home/ebi/.local/bin:$PATH"
 
+# editors 
+export EDITOR=nvim;
+export VISUAL=nvim;
