@@ -1,0 +1,26 @@
+live_config_reload = true
+
+[debug]
+log_level = "off"
+persistent_logging = false
+render_timer = false
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "FiraCode Nerd Font"
+
+[scrolling]
+history = 10000
+
+[shell]
+args = ["-l"]
+program = "/bin/zsh"
+
+[window]
+decorations = "full"
+opacity = 0.9

@@ -85,7 +85,11 @@ local plugins = {
       require "custom.configs.lspconfig"
     end,
   },
-{
+  {
+    "numToStr/FTerm.nvim"
+
+  },
+  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
@@ -114,6 +118,10 @@ local plugins = {
       },
     },
   },
+  {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
 
+  },
   }
 return plugins

@@ -76,7 +76,8 @@ plugins=(
   docker
   python
 #  zsh-syntax-highlighting
-#  fast-syntax-highlighting
+  fast-syntax-highlighting
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -118,3 +119,6 @@ export PATH="/home/ebi/.local/bin:$PATH"
 # editors 
 export EDITOR=nvim;
 export VISUAL=nvim;
+
+
+eval "$(zoxide init --cmd cd zsh)"
