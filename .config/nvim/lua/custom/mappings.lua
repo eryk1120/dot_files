@@ -60,5 +60,14 @@ M.trouble = {
 
   }
 }
+M.fterm = {
+  n = {
+    ["<leader>ft"] = {function () require("FTerm").toggle() end, "toggle floating terminal" },
+    ["<C-t>"] = {function () require("FTerm").toggle() end, "toggle floating terminal" }
+  },
+  t = {
+    ["<C-t>"] = {function () require("FTerm").toggle() end, "toggle floating terminal" }
+  }
+}
 
 return M

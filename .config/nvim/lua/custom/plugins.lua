@@ -114,6 +114,7 @@ local plugins = {
         "c",
         -- devops
         "terraform",
+        "ruby",
 
       },
     },
