@@ -42,6 +42,9 @@ bindkey  "^[[F"   end-of-line
 bindkey  "^[[1~"   beginning-of-line
 bindkey  "^[[4~"   end-of-line
 bindkey  "^[[3~"  delete-char
+# add ctrl <- and ctrl -> for word navigation
+bindkey '\E[1;5C' forward-word
+bindkey '\E[1;5D' backward-word 
 
 # History
 HISTSIZE=5000
