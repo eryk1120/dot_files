@@ -67,7 +67,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Shell integrations
-# eval "$(fzf --zsh)" # does not work with fzf from fedora repo (0.48<= needed)
+eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd z zsh)"
 
 
@@ -75,7 +75,7 @@ alias nv="nvim"
 alias ran=". ranger"
 alias gc_sign_commit="git config user.signingkey 58DC42A01C3215E2D455D3AB0DAA5638D9D920A4 && git config user.email esalamonski@gamecodehq.com"
 alias tm="tmux"
-alias start_docker"sudo systemctl start docker.service"
+alias start_docker="sudo systemctl start docker.service"
 alias stop_docker="sudo systemctl stop docker.socket docker.service"
 # poetry
 export PATH="/home/ebi/.local/bin:$PATH"
